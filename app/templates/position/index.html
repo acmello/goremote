@@ -1,0 +1,25 @@
+<div class="row">
+	<div class="col-sm-12">
+		<h2>Positions available</h2>
+	</div>
+</div>
+
+<!-- search section -->
+<search-box></search-box>	
+
+<div ng-repeat="position in positions" class="well" load-more>
+	<h4><a href="#">{{position.name}}</a></h4>
+	<div class="row">
+		<div class="col-sm-6">
+			<small>{{position.date | date: short}}</small>
+		</div>
+		<div class="col-sm-6">
+			<span class="label label-default pull-right" ng-repeat="label in position.labels">{{label}}</span>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+		<button class="btn btn-primary" ng-click="loadMoreData();">Load More</button>
+	</div>	
+</div>

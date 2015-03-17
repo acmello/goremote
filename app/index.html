@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="goRemote" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="goRemote" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="goRemote" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="goRemote" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- vendor -->
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+  <!-- app -->
+  <link rel="stylesheet" href="stylesheets/jumbotron-narrow.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+  
+</head>
+<body>
+  <div class="container">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="header">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+          <li role="presentation" class="active"><a href="#/home">Home</a></li>
+          <li role="presentation"><a href="#/manifest">Manifesto</a></li>
+          <li role="presentation"><a href="#/position">Vagas</a></li>
+          <li role="presentation"><a href="#/about">Sobre</a></li>
+        </ul>
+      </nav>
+       <h3 class="text-muted">Go, Remote!</h3>
+    </div>
+
+    <div ng-view></div>
+
+    <footer class="footer">
+        <p>&copy; Made with love by <a href="#">@acmello</a></p>
+    </footer>
+  </div>
+
+  
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  
+  <!-- vendors -->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  
+  <!-- load app -->
+  <script src="app.js"></script>
+  <script src="routes.js"></script>
+
+  <!-- factories -->
+  <script src="components/factories/position.js"></script>
+  
+  <!-- controllers -->
+  <script src="components/controllers/position/index.js"></script>
+  <script src="components/controllers/position/show.js"></script>
+  <script src="components/controllers/position/new.js"></script>
+  <script src="components/controllers/home/index.js"></script>
+
+  <!-- directives -->
+   <script src="components/directives/search.js"></script>
+</body>
+</html>

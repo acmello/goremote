@@ -1,0 +1,20 @@
+.label {
+	margin-left: 2px;
+}
+
+small {
+	color: gray;
+}
+
+.btn {
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+.visible {
+	display: block;
+}
+
+.invisible {
+	display: none;
+}

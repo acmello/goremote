@@ -30,7 +30,13 @@
         <ul class="nav nav-pills pull-right">
           <li role="presentation" class="active"><a href="#/home">Home</a></li>
           <li role="presentation"><a href="#/manifest">Manifesto</a></li>
-          <li role="presentation"><a href="#/position">Vagas</a></li>
+          <li role="presentation"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Vagas <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li class="presentation"><a href="#/position">Vagas cadastradas</a></li>
+              <li class="presentation"><a href="#/position/new">Cadastrar vagas</a></li>
+            </ul>
+          </li>
+
           <li role="presentation"><a href="#/about">Sobre</a></li>
         </ul>
       </nav>
@@ -79,6 +85,7 @@
 
   <!-- filters -->
   <script src="components/filters/byDateFilter.js"></script>
+  <script src="components/filters/short-date.js"></script>
 
 </body>
 </html>

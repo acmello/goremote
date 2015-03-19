@@ -11,5 +11,5 @@ angular.module("goRemote")
 		$scope.positions = PositionFactory.get();
 
 
-		$scope.dateAfter = moment();
+		$scope.dateAfter = {name: 'All items', date: moment().subtract(10, 'year')};
 	}]);

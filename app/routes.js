@@ -20,7 +20,7 @@ angular.module('goRemote')
 		})
 
 		.when("/position/new", {
-			templateUrl: "templates/position/show.html",
+			templateUrl: "templates/position/new.html",
 			controller: "PositionCreateController"
 		})
 

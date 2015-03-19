@@ -7,12 +7,11 @@
 <!-- search section -->
 <search-box></search-box>	
 
-{{dateAfter}}
 <div ng-repeat="position in positions | filter: position | dateBetween: dateAfter " class="well" load-more>
 	<h4><a ng-href="#/position/{{position.id}}">{{position.name}}</a></h4>
 	<div class="row">
 		<div class="col-sm-6">
-			<small>{{position.date | date: short}}</small>
+			<small>{{position.date | momentDate: positionDate}}</small>
 		</div>
 		<div class="col-sm-6">
 			<span class="label label-default pull-right" ng-repeat="label in position.labels">{{label}}</span>

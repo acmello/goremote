@@ -8,7 +8,7 @@ angular.module("goRemote")
 					'id': 1,
 					'name': "Javascript Developer",
 					'description': "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure blanditiis quidem tempora provident, non aliquam cumque, perferendis, fugit necessitatibus unde eaque sed. Modi laudantium dolorem temporibus, error voluptates quasi culpa.",
-					'date': new Date(),
+					'date': moment(),
 					'labels': [
 						'javascript',
 						'front-end',
@@ -18,7 +18,7 @@ angular.module("goRemote")
 					'id': 2,
 					'name': "Front-end Developer",
 					'description': "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure blanditiis quidem tempora provident, non aliquam cumque, perferendis, fugit necessitatibus unde eaque sed. Modi laudantium dolorem temporibus, error voluptates quasi culpa.",
-					'date': new Date(),
+					'date': moment(),
 					'labels': [
 						'CSS',
 						'Mobile Design',
@@ -28,7 +28,7 @@ angular.module("goRemote")
 					'id': 3,
 					'name': "Q&A Assurance",
 					'description': "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure blanditiis quidem tempora provident, non aliquam cumque, perferendis, fugit necessitatibus unde eaque sed. Modi laudantium dolorem temporibus, error voluptates quasi culpa.",
-					'date': new Date(),
+					'date': moment(),
 					'labels': [
 						'Scheme',
 						'AngularJS',
@@ -38,7 +38,7 @@ angular.module("goRemote")
 					'id': 4,
 					'name': "Back-end Developer",
 					'description': "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure blanditiis quidem tempora provident, non aliquam cumque, perferendis, fugit necessitatibus unde eaque sed. Modi laudantium dolorem temporibus, error voluptates quasi culpa.",
-					'date': new Date(),
+					'date': moment(),
 					'labels': [
 						'javascript',
 						'front-end',
@@ -48,7 +48,7 @@ angular.module("goRemote")
 					'id': 5,
 					'name': "Social Media",
 					'description': "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure blanditiis quidem tempora provident, non aliquam cumque, perferendis, fugit necessitatibus unde eaque sed. Modi laudantium dolorem temporibus, error voluptates quasi culpa.",
-					'date': new Date(),
+					'date': moment(),
 					'labels': [
 						'javascript',
 						'front-end',
@@ -58,7 +58,7 @@ angular.module("goRemote")
 					'id': 6,
 					'name': "C++ Senior Programmer",
 					'description': "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure blanditiis quidem tempora provident, non aliquam cumque, perferendis, fugit necessitatibus unde eaque sed. Modi laudantium dolorem temporibus, error voluptates quasi culpa.",
-					'date': new Date(),
+					'date': moment(),
 					'labels': [
 						'javascript',
 						'front-end',

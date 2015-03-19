@@ -6,9 +6,7 @@ angular.module("goRemote")
 			replace: true,
 			restrict: 'E',
 			templateUrl: "templates/directives/search.html",
-			scope: {
-				isVisible: '@'
-			},
+			
 			controller: function($scope) {
 				$scope.isVisible = true;
 				
@@ -18,9 +16,7 @@ angular.module("goRemote")
 
 			},
 			link: function(scope, element, attrs, controller) {
-				scope.$watch('isVisible', function(oldValue, newValue){
-					console.log($(element));
-				})
+
 			},
 			
 		}

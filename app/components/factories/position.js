@@ -12,7 +12,7 @@ angular.module("goRemote")
 					'labels': [
 						'javascript',
 						'front-end',
-						'css'
+						'CSS'
 					]
 				},{
 					'id': 2,
@@ -20,9 +20,9 @@ angular.module("goRemote")
 					'description': "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure blanditiis quidem tempora provident, non aliquam cumque, perferendis, fugit necessitatibus unde eaque sed. Modi laudantium dolorem temporibus, error voluptates quasi culpa.",
 					'date': new Date(),
 					'labels': [
-						'javascript',
-						'front-end',
-						'css'
+						'CSS',
+						'Mobile Design',
+						'IOS'
 					]
 				},{
 					'id': 3,
@@ -30,9 +30,9 @@ angular.module("goRemote")
 					'description': "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure blanditiis quidem tempora provident, non aliquam cumque, perferendis, fugit necessitatibus unde eaque sed. Modi laudantium dolorem temporibus, error voluptates quasi culpa.",
 					'date': new Date(),
 					'labels': [
-						'javascript',
-						'front-end',
-						'css'
+						'Scheme',
+						'AngularJS',
+						'Famo.us'
 					]
 				},{
 					'id': 4,

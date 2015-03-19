@@ -1,4 +1,4 @@
-<div>
+<div ng-controller="PositionIndexController as ctrl">
 	<div class="row">
 		<div class="col-sm-12">
 			<a href="" class="pull-right" ng-click="toggleSearch()"> Search
@@ -7,10 +7,10 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-12" ng-class="{invisible : isVisible}">
+		<div class="col-sm-12" class="search-form" ng-class="{invisible : isVisible}">
 			<form action="">
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Filter for specific word like Javascript, CSS...">	
+					<input type="text" ng-model="position.name" class="form-control" placeholder="Filter for specific word like Javascript, CSS...">	
 				</div>
 				<div class="row">
 					<div class="col-sm-6">

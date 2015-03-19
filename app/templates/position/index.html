@@ -7,8 +7,8 @@
 <!-- search section -->
 <search-box></search-box>	
 
-<div ng-repeat="position in positions" class="well" load-more>
-	<h4><a href="#">{{position.name}}</a></h4>
+<div ng-repeat="position in positions | filter: position" class="well" load-more>
+	<h4><a ng-href="#/position/{{position.id}}">{{position.name}}</a></h4>
 	<div class="row">
 		<div class="col-sm-6">
 			<small>{{position.date | date: short}}</small>
